@@ -1,0 +1,180 @@
+*
+{
+  box-sizing: border-box;
+}
+body, html, .full
+{
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.full
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.top-fixed
+{
+  display: flex;
+  background-color: #FFFFFF;
+
+}
+.top-panel
+{
+  display: flex;
+  flex-direction: column;
+}
+.top
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+}
+.icon
+{
+  width: 20px;
+}
+.top-title
+{
+  font-weight: 700;
+}
+.search-part
+{
+  position: relative;
+}
+.search-panel
+{
+  width: 95%;
+  height: 40px;
+  padding: 10px;
+  background-color: #F6F7F8;
+  border-radius: 13px;
+  border-color: transparent;
+  padding-left: 40px;
+}
+.search-panel::-webkit-input-placeholder
+{
+  /* padding-left: 40px; */
+  font-size: 15px;
+}
+.search-icon
+{
+  position: absolute;
+  width: 20px;
+  left: 20px;
+  top: 10px;
+}
+.top-items
+{
+  display: flex;
+  margin: 0px 0px 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #EEEEEE;
+}
+.top-items .top-item
+{
+  width: 70px;
+  color: #A4AAB1;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 3px;
+  /* padding: 0 5px; */
+  text-align: left;
+}
+.top-items .top-active
+{
+  color: #2A8FED;
+  font-weight: 600;
+}
+
+.content
+{
+  width: 100%;
+  display: flex;
+  padding: 0 10px;
+  flex-direction: column;
+  
+  flex: 1;
+  overflow: auto;
+}
+.content .book
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.book .rank 
+{
+  font-size: 10px;
+  padding: 0 10px;
+}
+.book .cover
+{
+  width: 80px;
+  /* height: 100%; */
+}
+.book .rank
+{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.intro 
+{
+  display: flex;
+  font-size: 13px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100px;
+  color: #999FAA;
+  flex: 1;
+}
+.intro .title 
+{
+  font-weight: 700;
+  color: black;
+}
+.intro .eval
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 700;
+}
+.eval .rate::before 
+{
+  content: "\00A0";
+}
+.eval .rate::after
+{
+  content: "\00A0";
+}
+.eval .honor
+{
+  height: 20px;
+}
+
+.people 
+{
+  display: flex;
+  background-color: #F3F3F6;
+  align-self: start;
+  /* padding: 10px 10px 0 0; */
+  border-radius: 4px;
+}
+.people .people-logo
+{
+  width: 14px;
+}
+.people .number
+{
+  font-size: 10px;
+  color: #999FAA;
+}

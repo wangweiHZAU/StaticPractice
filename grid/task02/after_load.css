@@ -1,0 +1,38 @@
+.up
+{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+}
+.up .icon
+{
+  display: block;
+  width: 100px;
+  /* height: 100%; */
+  transform: scale(1.5) translateX(50%);
+}
+.down
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5%;
+  column-gap: 30%;
+  /* height: auto; */
+  width: 70%;
+  align-items: center;
+}
+.down img
+{
+  width: 100%;
+}
+/* .h-auto
+{
+  height: auto;
+} */
+
+.loaded
+{
+  transition: none;
+}

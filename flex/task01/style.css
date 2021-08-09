@@ -1,0 +1,196 @@
+*
+{
+  box-sizing: border-box;
+}
+html, body, .page
+{
+  margin: 0;
+  height: 100%;
+}
+.top
+{
+  position: relative;
+  width: 100%;
+  background-color: #D43D34;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 15px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.top-title
+{
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.tabs
+{
+  padding: 15px;
+}
+.tabs > ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #CD2523;
+}
+.tab-item
+{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+.tab-active
+{
+  background-color: #B9211F;
+}
+.icon
+{
+  width: 20px;
+  height: 20px;
+  /* display: inline-block; */
+  /* position: relative; */
+  /* top: 50%;
+  transform: translateY(-50%); */
+  margin-right: 5px;
+}
+/* .hot, .article
+{
+  display: inline-block;
+  position: relative;
+} */
+
+.books
+{
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  background-color: #fff;
+}
+.book-list
+{
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+}
+.book-list::-webkit-scrollbar
+{
+  display: none;
+}
+.book-item
+{
+  /* width and margin attribute is just set because no more button */
+  width: 55px;
+  margin: 0px 10px 0 0px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #333;
+  border-radius: 5px;
+  white-space: nowrap;
+  /* padding: 0 12px; */
+  list-style: none;
+}
+.book-active
+{
+  background-color: #D43D34;
+  color: #fff;
+}
+
+/* main part  */
+.list 
+{
+  position: relative;
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+  padding: 15px;
+  background-color: #EEEEEE;
+}
+.sku
+{
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+.sku:last-child
+{
+  margin-bottom: 0;
+}
+.content
+{
+  display: flex;
+  flex-direction: column;
+}
+.cover
+{
+  height: 135px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cover-image
+{
+  width: 100%;
+  height: 100%;
+}
+.cover-rank
+{
+  position: absolute;
+  width: 36px;
+  left:0;
+  top: 0;
+}
+.info
+{
+  display: flex;
+  flex: 1;
+  margin: 15px 0 15px;
+}
+.book-title
+{
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* background-color: #EEEEEE; */
+}
+.desc
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+}
+.desc-number
+{
+  margin-left: 5px;
+  bottom: 0;
+}
+.desc .iconfont
+{
+  margin-left: 20px;
+}
+.desc .icon-comment
+{
+  margin-left: 0;
+}

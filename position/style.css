@@ -1,0 +1,94 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #EBEBEB;
+}
+
+header
+{
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  padding: 0px;
+  background-color: white;
+  z-index: 100;
+}
+.title
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content
+{
+  margin: 60px 0px 60px 0px;
+  float: left;
+  font-size: 15px;
+  position: relative;
+}
+p
+{
+  margin: 0 5px 0 0;
+}
+
+footer
+{
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  background-color: white;
+  
+}
+.chart, .buy
+{
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0;
+  font-weight: 900;
+}
+.chart
+{
+  right:119px;
+  width: 170px;
+  background-color: white;
+  color: #FF131C;
+  border-radius: 24px 0 0 24px ;
+  border: 2px solid #FF131C ;
+}
+.buy
+{
+  right: 20px;
+  width: 100px;
+  color: white;
+  
+  border: 2px solid #FF131C ;
+  border-color: #FF131C;
+  border-radius: 0 24px 24px 0; 
+  border-left: none;
+  background-color: #FF131C;
+}
+.triangle
+{
+  height: 80%;
+  position: absolute;
+  right: 119px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;height: 0;
+  border-top:none;
+  border-left: none;
+  border-width: 23px;
+  border-style: solid;
+  border-color: transparent #FF131C #FF131C transparent;
+  
+}

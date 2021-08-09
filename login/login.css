@@ -1,0 +1,87 @@
+
+body
+{
+  background-color: #EEEEEE;
+}
+
+.background
+{
+  background-color: white;
+  width: 340px;
+  height: 260px;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -170px;
+  margin-top: -138px;
+  text-align: center;  
+  border-radius: 4px;
+}
+
+.title
+{
+  margin: 20px 0 28px 0;
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+
+form 
+{
+  width: 330px;
+  height: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  /* border: 1px solid red; */
+  
+}
+::placeholder
+{
+  /* font-weight: bold; */
+  color: #000000;
+}
+ .form-list
+{
+  line-height: 30px;
+  
+  margin: 10px 10px 20px 10px;
+  border: 1px #EFEFEF solid;
+  border-radius: 4px;
+}
+
+input
+{
+  width: 300px;
+  background: none;
+  outline: none;
+  border: 4px;
+}
+
+.passport
+{
+  height: 30px;
+  line-height: 16px;
+  margin: 10px 0 10px 0;
+  text-align: left;
+  /* margin-left: 60px; */
+}
+
+.remember
+{
+  width: 30px;
+}
+
+#btn-login
+{
+  
+  width: 310px;
+  height: 30px;
+  background-color: #1890ff;
+  outline: none;
+  border: 1px;
+  color: white;
+  margin-top: 0px;
+  border-radius: 4px;
+}
